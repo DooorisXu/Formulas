@@ -5,6 +5,7 @@ if num > 1:
         if (num%i) == 0:
             prime = str('not a prime number')
             print(prime)
+
             print(str(i)+" * "+str(num//i)+" = "+str(num))
             break
         else:
