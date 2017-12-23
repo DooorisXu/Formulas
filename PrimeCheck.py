@@ -1,3 +1,5 @@
+# this code tests if a number is prime or not
+# need to modify the factor
 num = int(input('Enter an integer \n'))
 prime = 0
 if num > 1:
@@ -11,3 +13,7 @@ if num > 1:
         else:
             prime = num
 print(prime,' is a prime number')
+
+
+
+
